@@ -12,7 +12,13 @@ namespace kouloxeris
 {
     public partial class Form1 : Form
     {
-       
+        //win=μεταβλητη για το αν ο χρηστης εχει κερδισει 
+        //coin=τα κερματα που εχει πονταρει ο παιχτης
+        //coins=τα συνολικα κερματα που εχουν δωθει απο τους παιχτες
+        //wincoins=τα coins που εχω δωθει στους παιχτες
+        int coin,coins,wincoins=0;
+        // int win=1;
+        bool flag;
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +31,31 @@ namespace kouloxeris
             cherry4.Visible = false;
             seven4.Visible = false;
             grape4.Visible = false;
+            label4.Text = coin.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+       
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (banana1.Visible == true)
+            {
+                banana1.Visible = false;
+            }
+            else if (banana1.Visible == false)
+            {
+                banana1.Visible = true;
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            flag = false;
+            timer1.Enabled = false;
+            timer2.Enabled = false;
         }
 
 
@@ -45,6 +71,22 @@ namespace kouloxeris
             cherry4.Visible = true;
             seven4.Visible = true;
             grape4.Visible = true;
+        }
+
+        //κουμπι play
+        private void button1_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            timer1.Enabled = true;
+            timer2.Enabled = true;
+
+            
+            
+            /*coin= 5;
+            coins = coins + coin;
+            wincoins = wincoins + coins;
+            label2.Text = coins.ToString();
+       */
         }
     }
 }
