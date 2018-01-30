@@ -41,49 +41,44 @@ namespace kouloxeris
        
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (banana1.Visible == true)
-            {
-                banana1.Visible = false;
-            }
-            else if (banana1.Visible == false)
-            {
-                banana1.Visible = true;
-            }
+          
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            flag = false;
-           // timer1.Enabled = false;
-           // timer2.Enabled = false;
+         
+            timer1.Enabled = false;
+            timer2.Enabled = false;
         }
 
 
         //βαζει περισσοτερες στηλες
         private void button2_Click(object sender, EventArgs e)
         {
-           
-            orange1.Visible =true; 
-            orange2.Visible =true; 
-            orange3.Visible =true; 
-            orange4.Visible =true; 
+            flag = true;
+           orange1.Visible =true; 
+           orange2.Visible =true; 
+           orange3.Visible =true; 
+           orange4.Visible =true; 
             banana4.Visible =true;
             cherry4.Visible = true;
             seven4.Visible = true;
             grape4.Visible = true;
         }
 
-        //κουμπι play
+        //κουμπι play για να ξεκινησει ο κουλοχερης
         private void button1_Click(object sender, EventArgs e)
         {
-            flag = true;
+            
             timer1.Enabled = true;
             timer2.Enabled = true;
 
+            //κανω τυχαιο το interval για το ποσο γρηγορα θα αλλαζουν οι εικονες,επειδη ο timer1 ειναι για την αλλαγη των εικονων
             Random r = new Random();
             int interval1 = r.Next(250,500) ;
             timer1.Interval = interval1;
 
+            //κανω τυχαιο επισης το ποσο θα διαρκει ο κουλοχερης ωστε να υπαρχει μια τυχαια αλλαγη
             int interval2 = r.Next(3000,7000);
             label5.Text=(((interval2/1000).ToString()+" δευτερολεπτα χι χι"));
 

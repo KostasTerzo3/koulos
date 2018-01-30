@@ -59,6 +59,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.seven1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cherry1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.seven2)).BeginInit();
@@ -84,7 +85,7 @@
             // seven1
             // 
             this.seven1.Image = ((System.Drawing.Image)(resources.GetObject("seven1.Image")));
-            this.seven1.Location = new System.Drawing.Point(200, 300);
+            this.seven1.Location = new System.Drawing.Point(432, 300);
             this.seven1.Name = "seven1";
             this.seven1.Size = new System.Drawing.Size(130, 130);
             this.seven1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +95,7 @@
             // cherry1
             // 
             this.cherry1.Image = ((System.Drawing.Image)(resources.GetObject("cherry1.Image")));
-            this.cherry1.Location = new System.Drawing.Point(200, 299);
+            this.cherry1.Location = new System.Drawing.Point(432, 299);
             this.cherry1.Name = "cherry1";
             this.cherry1.Size = new System.Drawing.Size(130, 130);
             this.cherry1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,7 +105,7 @@
             // seven2
             // 
             this.seven2.Image = ((System.Drawing.Image)(resources.GetObject("seven2.Image")));
-            this.seven2.Location = new System.Drawing.Point(400, 299);
+            this.seven2.Location = new System.Drawing.Point(432, 300);
             this.seven2.Name = "seven2";
             this.seven2.Size = new System.Drawing.Size(130, 130);
             this.seven2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -114,7 +115,7 @@
             // seven3
             // 
             this.seven3.Image = ((System.Drawing.Image)(resources.GetObject("seven3.Image")));
-            this.seven3.Location = new System.Drawing.Point(600, 299);
+            this.seven3.Location = new System.Drawing.Point(787, 299);
             this.seven3.Name = "seven3";
             this.seven3.Size = new System.Drawing.Size(130, 130);
             this.seven3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +125,7 @@
             // seven4
             // 
             this.seven4.Image = ((System.Drawing.Image)(resources.GetObject("seven4.Image")));
-            this.seven4.Location = new System.Drawing.Point(800, 299);
+            this.seven4.Location = new System.Drawing.Point(947, 300);
             this.seven4.Name = "seven4";
             this.seven4.Size = new System.Drawing.Size(130, 130);
             this.seven4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,7 +135,7 @@
             // cherry3
             // 
             this.cherry3.Image = ((System.Drawing.Image)(resources.GetObject("cherry3.Image")));
-            this.cherry3.Location = new System.Drawing.Point(600, 300);
+            this.cherry3.Location = new System.Drawing.Point(787, 299);
             this.cherry3.Name = "cherry3";
             this.cherry3.Size = new System.Drawing.Size(130, 130);
             this.cherry3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,7 +145,7 @@
             // cherry2
             // 
             this.cherry2.Image = ((System.Drawing.Image)(resources.GetObject("cherry2.Image")));
-            this.cherry2.Location = new System.Drawing.Point(400, 299);
+            this.cherry2.Location = new System.Drawing.Point(628, 299);
             this.cherry2.Name = "cherry2";
             this.cherry2.Size = new System.Drawing.Size(130, 130);
             this.cherry2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -154,7 +155,7 @@
             // cherry4
             // 
             this.cherry4.Image = ((System.Drawing.Image)(resources.GetObject("cherry4.Image")));
-            this.cherry4.Location = new System.Drawing.Point(800, 299);
+            this.cherry4.Location = new System.Drawing.Point(947, 299);
             this.cherry4.Name = "cherry4";
             this.cherry4.Size = new System.Drawing.Size(130, 130);
             this.cherry4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,7 +165,7 @@
             // grape3
             // 
             this.grape3.Image = ((System.Drawing.Image)(resources.GetObject("grape3.Image")));
-            this.grape3.Location = new System.Drawing.Point(600, 299);
+            this.grape3.Location = new System.Drawing.Point(787, 300);
             this.grape3.Name = "grape3";
             this.grape3.Size = new System.Drawing.Size(130, 130);
             this.grape3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +175,7 @@
             // grape4
             // 
             this.grape4.Image = ((System.Drawing.Image)(resources.GetObject("grape4.Image")));
-            this.grape4.Location = new System.Drawing.Point(800, 299);
+            this.grape4.Location = new System.Drawing.Point(947, 299);
             this.grape4.Name = "grape4";
             this.grape4.Size = new System.Drawing.Size(130, 130);
             this.grape4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -184,7 +185,7 @@
             // grape2
             // 
             this.grape2.Image = ((System.Drawing.Image)(resources.GetObject("grape2.Image")));
-            this.grape2.Location = new System.Drawing.Point(400, 299);
+            this.grape2.Location = new System.Drawing.Point(628, 300);
             this.grape2.Name = "grape2";
             this.grape2.Size = new System.Drawing.Size(130, 130);
             this.grape2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -194,7 +195,7 @@
             // grape1
             // 
             this.grape1.Image = ((System.Drawing.Image)(resources.GetObject("grape1.Image")));
-            this.grape1.Location = new System.Drawing.Point(200, 299);
+            this.grape1.Location = new System.Drawing.Point(432, 300);
             this.grape1.Name = "grape1";
             this.grape1.Size = new System.Drawing.Size(130, 130);
             this.grape1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +205,7 @@
             // banana3
             // 
             this.banana3.Image = ((System.Drawing.Image)(resources.GetObject("banana3.Image")));
-            this.banana3.Location = new System.Drawing.Point(600, 299);
+            this.banana3.Location = new System.Drawing.Point(787, 300);
             this.banana3.Name = "banana3";
             this.banana3.Size = new System.Drawing.Size(130, 130);
             this.banana3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -214,7 +215,7 @@
             // banana2
             // 
             this.banana2.Image = ((System.Drawing.Image)(resources.GetObject("banana2.Image")));
-            this.banana2.Location = new System.Drawing.Point(400, 300);
+            this.banana2.Location = new System.Drawing.Point(628, 300);
             this.banana2.Name = "banana2";
             this.banana2.Size = new System.Drawing.Size(130, 130);
             this.banana2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -224,7 +225,7 @@
             // banana1
             // 
             this.banana1.Image = ((System.Drawing.Image)(resources.GetObject("banana1.Image")));
-            this.banana1.Location = new System.Drawing.Point(200, 300);
+            this.banana1.Location = new System.Drawing.Point(432, 299);
             this.banana1.Name = "banana1";
             this.banana1.Size = new System.Drawing.Size(130, 130);
             this.banana1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -234,7 +235,7 @@
             // banana4
             // 
             this.banana4.Image = ((System.Drawing.Image)(resources.GetObject("banana4.Image")));
-            this.banana4.Location = new System.Drawing.Point(800, 300);
+            this.banana4.Location = new System.Drawing.Point(947, 299);
             this.banana4.Name = "banana4";
             this.banana4.Size = new System.Drawing.Size(130, 130);
             this.banana4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -244,7 +245,7 @@
             // orange3
             // 
             this.orange3.Image = ((System.Drawing.Image)(resources.GetObject("orange3.Image")));
-            this.orange3.Location = new System.Drawing.Point(600, 300);
+            this.orange3.Location = new System.Drawing.Point(787, 299);
             this.orange3.Name = "orange3";
             this.orange3.Size = new System.Drawing.Size(130, 130);
             this.orange3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -253,8 +254,9 @@
             // 
             // orange1
             // 
+            this.orange1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.orange1.Image = ((System.Drawing.Image)(resources.GetObject("orange1.Image")));
-            this.orange1.Location = new System.Drawing.Point(200, 299);
+            this.orange1.Location = new System.Drawing.Point(432, 300);
             this.orange1.Name = "orange1";
             this.orange1.Size = new System.Drawing.Size(130, 130);
             this.orange1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -264,7 +266,7 @@
             // orange2
             // 
             this.orange2.Image = ((System.Drawing.Image)(resources.GetObject("orange2.Image")));
-            this.orange2.Location = new System.Drawing.Point(400, 299);
+            this.orange2.Location = new System.Drawing.Point(628, 299);
             this.orange2.Name = "orange2";
             this.orange2.Size = new System.Drawing.Size(130, 130);
             this.orange2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,7 +276,7 @@
             // orange4
             // 
             this.orange4.Image = ((System.Drawing.Image)(resources.GetObject("orange4.Image")));
-            this.orange4.Location = new System.Drawing.Point(800, 300);
+            this.orange4.Location = new System.Drawing.Point(947, 300);
             this.orange4.Name = "orange4";
             this.orange4.Size = new System.Drawing.Size(130, 130);
             this.orange4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -348,17 +350,27 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(246, 201);
+            this.label5.Location = new System.Drawing.Point(420, 201);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 13);
+            this.label5.Size = new System.Drawing.Size(0, 13);
             this.label5.TabIndex = 29;
-            this.label5.Text = "Ο κουλοχερης θα διαρκεσει για: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(246, 201);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(168, 13);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Ο κουλοχερης θα διαρκεσει για: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1474, 552);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -446,6 +458,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
